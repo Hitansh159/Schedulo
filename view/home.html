@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <title>Schedulo!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#!">Schedulo</a>
+      <a class="btn btn-primary" href="/">Home</a>
+
+    </div>
+  </nav>
+  <section class="features-icons bg-light text-center">
+  <div class="container w-50 mt-5 border border-shadow">
+    <h1 class="mb-5">Generate your own Schedule</h1>
+    <form action="#">
+      <div class="date">
+        <h4>Enter Date:</h4>
+        <input type="date" id="schedule" name="schedule" />
+      </div>
+      <div class="interval mt-3">
+        <h4>Enter time interval</h4>
+        <label for="appt">From</label>
+        <input type="time" id="appt" name="appt" />
+        <label for="to">to</label>
+        <input type="time" id="appt" name="appt" />
+        <div class="not-schedule mt-3">
+          <h4>Add intervals for which you do not want to schedule any work</h4>
+          <label for="appt">From</label>
+          <input type="time" id="appt" name="appt" />
+          <label for="to">to</label>
+          <input type="time" id="appt" name="appt" />
+          <button type="button" class="btn btn-secondary">+</button>
+
+        </div>
+        <h3 class="mt-5">Add your schedule</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h4>Title</h4>
+              <div>
+                <label for="schedule" class="schedule">Google Meet</label>
+              </div>
+              <div class="text mt-3">
+                <input type="text" placeholder="title of schedule">
+              </div>
+              <div class="text mt-3">
+                <input type="text" placeholder="title of schedule">
+              </div>
+            </div>
+            <div class="col">
+              <h4>Time interval</h4>
+              <div class="timeint">
+                <label for="time interval" class="interval">2 hours</label>
+              </div>
+              <div class="text mt-3">
+                <input type="text" placeholder="time interval">
+              </div>
+              <div class="text mt-3">
+                <input type="text" placeholder="time interval">
+              </div>
+            </div>
+
+
+          </div>
+
+          <button type="button" class="btn btn-secondary">+</button>
+
+        </div>
+
+        <div class="submit">
+          <button type="button" class="btn btn-primary mt-3">Submit</button>
+        </div>
+
+    </form>
+  </div>
+</section>
+
+
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item"><a href="#!">About</a></li>
+            <li class="list-inline-item">⋅</li>
+            <li class="list-inline-item"><a href="#!">Contact</a></li>
+            <li class="list-inline-item">⋅</li>
+            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+            <li class="list-inline-item">⋅</li>
+            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Tridnet 2022. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item me-4">
+              <a href="#!"><i class="bi-facebook fs-3"></i></a>
+            </li>
+            <li class="list-inline-item me-4">
+              <a href="#!"><i class="bi-twitter fs-3"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#!"><i class="bi-instagram fs-3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
